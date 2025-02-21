@@ -1,13 +1,11 @@
 import { Editor } from '@/components/editor/Editor'
 import Header from '@/components/ui/Header'
-import { Button } from '@/components/ui/button'
 import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
-import React from 'react'
 
-const page = () => {
+const Document = () => {
   return (
     <div>
-       <Header>
+      <Header>
         <div className="flex w-fit ites-center justify-center gap-2">
           <p className='document-title'>
             This is Document
@@ -25,4 +23,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Document
